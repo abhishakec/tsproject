@@ -1,0 +1,13 @@
+/* @sldsValidatorIgnore */
+.container{
+    color: #3E3E3C;
+    font-size: 12px;
+    padding-bottom: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons img{
+    width: 25px;
+    height: 25px;
+}

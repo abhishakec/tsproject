@@ -1,0 +1,20 @@
+<aura:component implements="lightning:recordHomeTemplate" description="Header with Three Region and Wide Center">
+    <aura:attribute name="left" type="Aura.Component[]" />
+    <aura:attribute name="center" type="Aura.Component[]" />
+    <aura:attribute name="right" type="Aura.Component[]" />
+
+    <div>
+        <lightning:layout>
+            <lightning:layoutItem size="2">
+                {!v.left}
+            </lightning:layoutItem>
+            <lightning:layoutItem size="7" class="slds-p-horizontal_small">
+                {!v.center}
+            </lightning:layoutItem>
+            <lightning:layoutItem size="3">
+                {!v.right}
+            </lightning:layoutItem>
+        </lightning:layout>
+    </div>
+
+</aura:component>

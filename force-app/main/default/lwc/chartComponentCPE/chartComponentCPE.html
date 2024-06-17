@@ -1,0 +1,32 @@
+<template>
+    <lightning-card title="Doughnut Chart Configuration" icon-name="custom:custom63">
+        <div class="slds-m-around_medium">
+            <lightning-combobox
+                name="objectName"
+                label="Object"
+                value={selectedObjectName}
+                options={objectOptions}
+                onchange={handleObjectChange}
+                required
+            ></lightning-combobox>
+
+            <lightning-combobox
+                name="fieldName"
+                label="Field Name (Data)"
+                value={selectedFieldName}
+                options={fieldOptions}
+                onchange={handleFieldChange}
+                required
+            ></lightning-combobox>
+
+            <lightning-combobox
+                name="labelName"
+                label="Field Name (Label)"
+                value={selectedLabelName}
+                options={fieldOptions}
+                onchange={handleLabelChange}
+                required
+            ></lightning-combobox>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,45 @@
+:host{
+	--lwc-fontSize5: 1rem;
+	--sds-c-icon-color-background: #9D51B1;
+	--sds-c-button-brand-color-background: #9D51B1;
+	--sds-c-button-brand-color-border: #9D51B1;
+	--sds-c-button-brand-color-background-hover: #772c8a;
+}
+
+.template{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 10px;
+	border: 1px dashed #dfdfdf;
+	border-radius: 3px;
+	width: fit-content;
+	padding: 2px 2px 2px 0;
+}
+
+.icon-bg{
+	--sds-c-icon-color-background: none;
+}
+
+.text{
+	color: #7d7d7d;
+	padding: 0 8px;
+}
+
+.container{
+	padding:0 0 10px 20px;
+}
+
+.uploadInput{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 0 20px;
+	margin-top: -7px;
+}
+
+.filename{
+	color: #9D51B1;
+	margin: 20px 10px 0;
+	height: 100%;
+}

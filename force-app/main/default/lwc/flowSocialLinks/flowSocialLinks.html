@@ -1,0 +1,12 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <div class="container">{title}
+        <div class="social-icons">
+            <template lwc:if={enableLinkedIn}>
+                <a href={setLinkedInURL} target="_blank">
+                    <img src={LinkedInIcon} />
+                </a>
+            </template>
+        </div>
+    </div>
+</template>

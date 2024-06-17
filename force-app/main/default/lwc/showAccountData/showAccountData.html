@@ -1,0 +1,7 @@
+<template>
+    <template for:each={accounts} for:item="account">
+        <div key={account.name}>
+            {account.name} - {account.phone}
+        </div>
+    </template>
+</template>

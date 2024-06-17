@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Doughnut Chart Component</masterLabel>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="chartTitle" label="Chart Title" type="String" />
+            <property name="objectName" label="Enter Object Api Name" type="String" />
+            <property name="fieldName" label="Field Name (Data)" type="String"  />
+            <property name="labelName" label="Field Name (Label)" type="String" />
+            <property name="groupByVal" label="Group By" type="String" description="Use CALENDAR_YEAR, CALENDAR_QUARTER, CALENDAR_MONTH" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

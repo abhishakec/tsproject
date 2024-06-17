@@ -1,0 +1,3 @@
+SELECT Study_Group__c
+FROM Study_Group_Membership__c 
+WHERE Member__c = 'a035i00000BW561AAD'           

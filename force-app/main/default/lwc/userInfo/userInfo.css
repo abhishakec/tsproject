@@ -1,0 +1,62 @@
+.card-bg {
+    background: #52006D;
+    background: linear-gradient(35deg, #52006D 37%, #fd1d1dcc 84%, #fcb045cb 100%);
+    color: #fff;
+    border-top-left-radius: 5px;
+}
+
+.stack-bg{
+    background-size: 10%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: auto;
+    display: block;
+    width: 100%;
+    padding: 15px 20px 5px;
+    border-radius: 5px;
+}
+
+.profile-picture {
+  	width: 65px;
+  	height: 65px;
+    border: 2.8px solid #BBA6C0;
+  	border-radius: 50%;
+  	object-fit: cover;
+}
+
+.user-name{
+    font-size: 1.2rem;
+}
+
+.user-name span{
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.slds-text-title_caps{
+    color: #e8e7e7;
+}
+
+.inner-body-bg{
+    background-color: #F3F2F2;
+    border-radius: 5px;
+    margin: 0 !important;
+    padding: 1rem !important;
+}
+
+.welcome-msg{
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.align-right{
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.round-top{
+    border-radius: 5px !important;
+    padding-top: 3px !important;
+    padding-bottom: 5px !important;
+}

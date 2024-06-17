@@ -1,0 +1,14 @@
+<design:component label="Header with Three Region and Wide Center">
+    <flexipage:template>
+        <flexipage:region name="left" label="Left Region" defaultWidth="SMALL" />
+        <flexipage:region name="center" label="Main Region" defaultWidth="MEDIUM">
+            <flexipage:formfactor type="MEDIUM" width="SMALL" />
+        </flexipage:region>
+        <flexipage:region name="right" label="Right Region" defaultWidth="SMALL" />
+    </flexipage:template>
+
+    <design:supportedFormFactors>
+        <design:supportedFormFactor type="Small" />
+        <design:supportedFormFactor type="Large" />
+    </design:supportedFormFactors>
+</design:component>

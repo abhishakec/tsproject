@@ -1,0 +1,32 @@
+<template>
+	<lightning-card title="Create New Members" icon-name="standard:user_role">
+		<div class="container">
+			<h2>New Members can be created in bulk using the CSV file upload</h2>
+			<div class="template">
+				<lightning-icon icon-name="doctype:csv" alternative-text="CSV" class="icon-bg"></lightning-icon>
+				<div class="text">Download the sample CSV template <a target="_blank" href="/sfc/p/5i00000DPO07/a/5i0000004i9h/xitg0sbw7FTe3cRFpnZZIhdyeNKrpOk_YClhmdRXZPk">here</a></div>
+			</div>
+			<div class="uploadInput">
+				<!-- File input component for selecting CSV file -->
+				<lightning-input 
+					name="fileUploader" 
+					type="file" multiple
+					accept=".csv"
+					onchange={handleFilesChange}
+				>
+				</lightning-input>
+				<!-- Display selected file name -->
+				<div class="filename">{fileName}</div>
+			</div>
+			<!-- Button to trigger member creation -->
+			<div>
+				<lightning-button 
+					label="Create Members" 
+					variant="brand" 
+					onclick={handleCreate}
+				>
+				</lightning-button>
+			</div>
+		</div>
+	</lightning-card>
+</template>
